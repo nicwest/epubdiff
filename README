@@ -1,0 +1,27 @@
+EPUBDIFF
+--------
+Checks for differences between two epub/zip files
+
+Requires python 2.7+
+
+Usage
+-----
+
+import epubdiff
+
+#init
+checker = epubdiff.EpubDiff(<path-to-file1>, <path-to-file2>)
+
+#check files
+checker.check()
+
+#show differences
+print checker.difflog
+
+Example Sample Files:
+---------------------
+
+Source and modified cc-shared-culture as sample: https://code.google.com/p/epub-samples/wiki/SamplesListing#cc-shared-culture
+modfied versions: https://code.google.com/p/epub-samples/wiki/SamplesListing#cc-shared-culture
+
+This file was modified by PyCharm 2.7.3 for binding GitHub repository
